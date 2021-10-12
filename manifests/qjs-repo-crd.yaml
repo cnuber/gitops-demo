@@ -1,11 +1,13 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
-  name: podinfo
-  namespace: default
+  name: qjs-demo
+  namespace: qjs
 spec:
   interval: 5m
-  url: https://github.com/stefanprodan/podinfo
+  url: https://github.com/cnuber/qjs-demo
+  ref:
+    branch: main
   ignore: |
     .git/
     .github/
