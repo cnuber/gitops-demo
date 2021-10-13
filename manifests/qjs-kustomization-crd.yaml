@@ -4,7 +4,7 @@ metadata:
   name: qjs
   namespace: qjs
 spec:
-  interval: 5m
+  interval: 1m
   path: "./manifests/"
   prune: true
   sourceRef:
