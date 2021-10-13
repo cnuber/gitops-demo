@@ -17,7 +17,7 @@ If you are on a Mac and have homebrew, you can install it with `brew install kub
 
 Follow instructions at https://fluxcd.io/docs/cmd/
 
-Or if you're feeling froggy: curl -s https://fluxcd.io/install.sh | sh
+Or if you're feeling froggy: `curl -s https://fluxcd.io/install.sh | sh`
 
 # Create a k3d cluster
 
