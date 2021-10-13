@@ -21,7 +21,7 @@ Or if you're feeling froggy: `curl -s https://fluxcd.io/install.sh | sh`
 
 # Create a k3d cluster
 
-`k3d cluster create gitops -p "9999:30001@server[0]"`
+`k3d cluster create gitops -p "9999:30001@server:0"`
 
 # Install flux using the flux cli
 
