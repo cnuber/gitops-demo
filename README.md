@@ -42,7 +42,9 @@ kubectl apply -f manifests/qjs-kustomization-crd.yaml -n qjs # create the Flux k
 # Verify deployment
 kubectl get pods -n qjs # pod should exist and be in a running state 2/2
 
+# Access the application in the browser
+Browse to localhost:9999 and get your boomstick ready
 
-
-
+# Tear it down (if you don't wanna keep the quake server/client running in k3d on your system for funsies)
+k3d cluster delete gitops
 
